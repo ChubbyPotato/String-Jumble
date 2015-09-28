@@ -2,6 +2,7 @@
 stringjumble.py
 Author: Suhan Gui
 Credit: http://stackoverflow.com/questions/12794141/reverse-input-in-python
+http://stackoverflow.com/questions/18078595/how-do-i-reverse-each-word-in-a-string-but-in-the-same-sentence-order
 
 Assignment: String Jumble
 
@@ -32,4 +33,4 @@ potato=s[::-1]
 
 print("{0}".format(' '.join(reversed(potato.split(' ')))))
 print("{0}".format(' '.join(reversed(s.split(' ')))))
-print("{0}".format(''.join(reversed(s))))
+print("{0}".format(' '.join([word[::-1] for word in s.split()])))
