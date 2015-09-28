@@ -31,6 +31,6 @@ print('You entered "{0}". Now jumble it: '.format(s))
 
 potato=s[::-1]
 
-print("{0}".format(' '.join(reversed(potato.split(' ')))))
-print("{0}".format(' '.join(reversed(s.split(' ')))))
 print("{0}".format(' '.join([word[::-1] for word in s.split()])))
+print("{0}".format(' '.join(reversed(s.split(' ')))))
+print("{0}".format(' '.join(reversed(potato.split(' ')))))
