@@ -29,8 +29,7 @@ s=input('Please enter a string of text (the bigger the better): ')
 print('You entered "{0}". Now jumble it: '.format(s))
 
 potato=s[::-1]
-tomato=
 
 print("{0}".format(' '.join(reversed(potato.split(' ')))))
 print("{0}".format(' '.join(reversed(s.split(' ')))))
-print("{0}".format(' '.join(reversed(tomato.split(' ')))))
+print("{0}".format(''.join(reversed(s))))
