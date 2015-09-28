@@ -28,5 +28,9 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 s=input('Please enter a string of text (the bigger the better): ')
 print('You entered "{0}". Now jumble it: '.format(s))
 
-print("{0}".format(' '.join(reversed(s.split(' ')[::-1]))))
+potato=s[::-1]
+tomato=
+
+print("{0}".format(' '.join(reversed(potato.split(' ')))))
 print("{0}".format(' '.join(reversed(s.split(' ')))))
+print("{0}".format(' '.join(reversed(tomato.split(' ')))))
